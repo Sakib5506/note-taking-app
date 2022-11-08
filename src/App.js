@@ -22,6 +22,7 @@ function App() {
         setNotes = {setNotes}
         editableNote = {editableNote}
         setEditableNote = {setEditableNote}
+        editMode = {editMode}
         setEditMode = {setEditMode}
       />
 
