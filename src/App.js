@@ -5,10 +5,10 @@ import Form from './components/Form';
 import Display from './components/Display';
 
 function App() {
-  const [notes, setNotes] = useState([]);
-  const [title, setTitle] = useState('');
-  const [editableNote, setEditableNote] = useState(null);
-  const [editMode, setEditMode] = useState(false);
+  // const [notes, setNotes] = useState([]);
+  // const [title, setTitle] = useState('');
+  // const [editableNote, setEditableNote] = useState(null);
+  // const [editMode, setEditMode] = useState(false);
 
   
   
@@ -16,25 +16,25 @@ function App() {
     <div className="App">
       
       <Form
-        title = {title}
-        setTitle = {setTitle}
-        notes = {notes}
-        setNotes = {setNotes}
-        editableNote = {editableNote}
-        setEditableNote = {setEditableNote}
-        editMode = {editMode}
-        setEditMode = {setEditMode}
+        // title = {title}
+        // setTitle = {setTitle}
+        // notes = {notes}
+        // setNotes = {setNotes}
+        // editableNote = {editableNote}
+        // setEditableNote = {setEditableNote}
+        // editMode = {editMode}
+        // setEditMode = {setEditMode}
       />
 
       <Display
-        title = {title}
-        setTitle = {setTitle}
-        notes = {notes}
-        setNotes = {setNotes}
-        editableNote = {editableNote}
-        setEditableNote = {setEditableNote}
-        editMode = {editMode}
-        setEditMode = {setEditMode}
+        // title = {title}
+        // setTitle = {setTitle}
+        // notes = {notes}
+        // setNotes = {setNotes}
+        // editableNote = {editableNote}
+        // setEditableNote = {setEditableNote}
+        // editMode = {editMode}
+        // setEditMode = {setEditMode}
       />
 
 
